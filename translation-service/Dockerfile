@@ -4,8 +4,6 @@ WORKDIR /app
 
 COPY requirements.txt .
 
-RUN pip install --upgrade pip
-
 RUN pip install fastapi==0.68.1 \
                 uvicorn==0.15.0 \
                 transformers==4.11.3 \
